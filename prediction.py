@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set()
-raw_data = pd.read_csv("../input/housesalesprediction/kc_house_data.csv")
+raw_data = pd.read_csv("../input/kc_house_data.csv")
 raw_data.head()
 raw_data.info()
 raw_data.describe(include='all')
